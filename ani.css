@@ -1,0 +1,168 @@
+body {
+  background-color: black;
+  color: #7cf4ff;
+  font-family: 'Kaushan Script', cursive;
+}
+
+a {color: #7cf4ff;
+  font-family: inherit;
+  list-style-type: none;
+  text-decoration: none;
+  text-shadow: 0 0 8px #c2faff;
+}
+
+h1, h2, h3 {
+  text-shadow: 0 0 10px #c2faff;
+}
+
+h1 {
+  font-size: 4em;
+
+}
+h3 {
+  font-size: 2em;
+
+}
+h2 {
+  font-size: 3em;
+
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+}
+
+.author {
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 0 0 10px #c2faff;
+}
+
+.stanza {
+  font-size: 3em;
+  margin-top: 200px;
+  text-align: center;
+  text-shadow: 0 0 8px #c2faff;
+}
+
+span.yellow {
+  text-shadow: 0 0 20px #ffff99;
+  color: #ffff80;
+}
+/*Animations*/
+.switch {
+  float: right;
+  background-image: url(img/feather.png);
+  width: 250px;
+  height: 55px;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 1.5em;
+  transition:font-size 1s ease-in;
+  -webkit-transition:font-size 1s; /* Safari and Chrome */
+}
+
+
+.switch:hover {
+  font-size: 2em;
+}
+
+.switchp {
+  margin-left: 800px;
+  background-image: url(img/feather.png);
+  width: 250px;
+  height: 55px;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 1.5em;
+  transition:font-size 1s ease-in;
+  -webkit-transition:font-size 1s; /* Safari and Chrome */
+}
+
+
+.switchp:hover {
+  font-size: 2em;
+}
+
+.bird {
+  margin: auto;
+    width: 250px;
+    height: 208px;
+    background-image: url("img/bird4.png");
+
+    -webkit-animation: play 1.5s steps(8) infinite;
+            animation: play 1.5s steps(8) infinite;
+}
+@keyframes play {
+   from { background-position:    10px; }
+     to { background-position: -2000px; }
+}
+
+
+.soul {
+  float: left;
+  margin-left: 100px;
+    width: 248px;
+    height: 250px;
+    background-image: url("img/soul.png");
+
+    -webkit-animation: play 1.5s steps(8) infinite;
+            animation: play 1.5s steps(8) infinite;
+}
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+@-webkit-keyframes play {
+  from { background-position:    0px; }
+    to { background-position: -2000px; }
+}
+
+.soulwind {
+  float: left;
+  margin-left: 100px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/soulwind.png");
+
+    -webkit-animation: play 1s steps(8) infinite;
+            animation: play 1s steps(8) infinite;
+}
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+.soulglo {
+  float: left;
+  margin-left: 100px;
+    width: 249px;
+    height: 250px;
+    background-image: url("img/soulgloflat.png");
+
+    -webkit-animation: play 1.5s steps(8) infinite;
+            animation: play 1.5s steps(8) infinite;
+}
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+/*sway*/
+i {display:inline-block;}
+.sway1 {
+  -webkit-animation: sway1 .8s infinite;
+  animation: sway1 .8s infinite;
+}
+
+@keyframes sway1 {
+  50% {transform: skewX(2deg);}
+}
+
+@-webkit-keyframes sway1 {
+  50% {transform: skewX(2deg);}
+}
