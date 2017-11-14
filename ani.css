@@ -52,7 +52,9 @@ span.yellow {
   text-shadow: 0 0 20px #ffff99;
   color: #ffff80;
 }
+
 /*Animations*/
+
 .switch {
   float: right;
   background-image: url(img/feather.png);
@@ -93,8 +95,8 @@ span.yellow {
     height: 208px;
     background-image: url("img/bird4.png");
 
-    -webkit-animation: play 1.5s steps(8) infinite;
-            animation: play 1.5s steps(8) infinite;
+    -webkit-animation: play 1.2s steps(8) infinite;
+            animation: play 1.2s steps(8) infinite;
 }
 @keyframes play {
    from { background-position:    10px; }
