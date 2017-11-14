@@ -160,9 +160,9 @@ i {display:inline-block;}
 }
 
 @keyframes sway1 {
-  50% {transform: skewX(2deg);}
+  50% {transform: skewX(3deg);}
 }
 
 @-webkit-keyframes sway1 {
-  50% {transform: skewX(2deg);}
+  50% {transform: skewX(3deg);}
 }
