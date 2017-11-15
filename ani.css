@@ -53,7 +53,7 @@ span.yellow {
   color: #ffff80;
 }
 
-/*Animations*/
+/*Nav*/
 
 .switch {
   float: right;
@@ -66,7 +66,6 @@ span.yellow {
   transition:font-size 1s ease-in;
   -webkit-transition:font-size 1s; /* Safari and Chrome */
 }
-
 
 .switch:hover {
   font-size: 2em;
@@ -88,6 +87,8 @@ span.yellow {
 .switchp:hover {
   font-size: 2em;
 }
+
+/*Animations*/
 
 .bird {
   margin: auto;
@@ -111,8 +112,8 @@ span.yellow {
     height: 250px;
     background-image: url("img/soul.png");
 
-    -webkit-animation: play 1.5s steps(8) infinite;
-            animation: play 1.5s steps(8) infinite;
+    -webkit-animation: play 1.2s steps(8) infinite;
+            animation: play 1.2s steps(8) infinite;
 }
 @keyframes play {
    from { background-position:    0px; }
@@ -131,8 +132,8 @@ span.yellow {
     height: 250px;
     background-image: url("img/soulwind.png");
 
-    -webkit-animation: play 1s steps(8) infinite;
-            animation: play 1s steps(8) infinite;
+    -webkit-animation: play .8s steps(8) infinite;
+            animation: play .8s steps(8) infinite;
 }
 @keyframes play {
    from { background-position:    0px; }
@@ -146,8 +147,8 @@ span.yellow {
     height: 250px;
     background-image: url("img/soulgloflat.png");
 
-    -webkit-animation: play 1.5s steps(8) infinite;
-            animation: play 1.5s steps(8) infinite;
+    -webkit-animation: play 1.2s steps(8) infinite;
+            animation: play 1.2s steps(8) infinite;
 }
 @keyframes play {
    from { background-position:    0px; }
@@ -167,4 +168,30 @@ i {display:inline-block;}
 
 @-webkit-keyframes sway1 {
   50% {transform: skewX(3deg);}
+}
+
+.sway2 {
+  -webkit-animation: sway2 .6s infinite;
+  animation: sway2 .6s infinite;
+}
+
+@keyframes sway2 {
+  50% {transform: skewX(4deg);}
+}
+
+@-webkit-keyframes sway2 {
+  50% {transform: skewX(4deg);}
+}
+
+.sway3 {
+  -webkit-animation: sway3 .5s infinite;
+  animation: sway3 .5s infinite;
+}
+
+@keyframes sway3 {
+  50% {transform: skewX(2deg);}
+}
+
+@-webkit-keyframes sway3 {
+  50% {transform: skewX(2deg);}
 }
