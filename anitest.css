@@ -1,0 +1,96 @@
+
+div.cloudsright {
+  height: 870px;
+  background-image: url("img/clouds.png");
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  border: solid black 1px;
+}
+
+div.cloudsleft {
+  height: 870px;
+  background-image: url("img/cloudsleft.png");
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  border: solid black 1px;
+}
+#two {top: 870px;
+      opacity: .75;}
+#three {top: 1740px;
+      opacity: .5;}
+#four {top: 2610px;
+      opacity: .25;}
+
+      div.many {
+        background-image: url(img/many.png);
+        height: 9000px;
+        top: 1000px;
+        opacity: .2;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+      }
+
+      div.main {
+        height: 10000px;
+        width: 1000px;
+        border: solid 1px black;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+      }
+      div.title {
+        position: absolute;
+        left: 35%;
+        top: 0px;
+        z-index: 5;
+      }
+      h1 {
+      font-family: 'Finger Paint', cursive;
+      font-size: 5em;
+      color: white;
+      }
+      /*font-family: 'Ranchers', cursive;
+      font-family: 'Chewy', cursive;
+      font-family: 'Freckle Face', cursive;
+      font-family: 'Knewave', cursive;
+      font-family: 'Margarine', cursive;
+
+      font-family: 'Kavoon', cursive;
+      font-family: 'Baloo Chettan', cursive;
+      font-family: 'Averia Gruesa Libre', cursive;
+      font-family: 'Baloo Bhai', cursive;*/
+
+/*animations*/
+.drop {
+  margin: auto;
+    width: 500px;
+    height: 500px;
+    background-image: url("img/fallinganimationsmol.png");
+
+
+    -webkit-animation: drop .5s steps(6) forwards;
+            animation: drop .5s steps(6) forwards;
+}
+
+
+@keyframes drop {
+   from { background-position:    0px; }
+     to { background-position: -3000px; }
+}
+
+#splash {
+  -webkit-animation: splash 2s;
+  animation: splash 2s;
+  width: 500px;
+  height: 500px;
+  background-image: url(img/single500.png);
+}
+
+
+@keyframes splash {
+   100% { transform: scale(3,.5); }
+
+}
