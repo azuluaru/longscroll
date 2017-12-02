@@ -11,5 +11,5 @@ window.onscroll = function() {
 
     if (y < 500) {drop.style.animation = "float 2s ease-in-out infinite"}
     else if (y < 800) {drop.style.animation = "drop 1s steps(6) forwards";}
-    else if (y > 9250) {drop.style.animation = "splash .3s ease-in-out forwards";}
+    else if (y > 9273) {drop.style.animation = "splash .2s ease-in-out forwards";}
     }
