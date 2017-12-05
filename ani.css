@@ -47,14 +47,6 @@ div.many {
   z-index: 2;
 }
 
-div.main {
-  height: 10000px;
-  width: 1000px;
-  border: solid 1px black;
-  margin: auto;
-  position: relative;
-  z-index: 3;
-}
 div.title {
   position: absolute;
   left: 35%;
@@ -175,23 +167,9 @@ div.talk7{
   top: 8150px;
   z-index: 5;
 }
-/*div.end {
-    position: absolute;
-    left: 32%;
-    top: 9000px;
-    z-index: 6;}
-}
-/*
-font-family: 'Chewy', cursive;
-font-family: 'Freckle Face', cursive;
-font-family: 'Margarine', cursive;
-
-
-font-family: 'Averia Gruesa Libre', cursive;
-font-family: 'Baloo Bhai', cursive;*/
 
 div.bottom {
-  background-color: brown;
+  background-image: url(img/dirt.png);
   position: absolute;
   top: 9400px;
   height: 600px;
