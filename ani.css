@@ -57,7 +57,7 @@ div.main {
 }
 div.title {
   position: absolute;
-  left: 35%;
+  left: 37%;
   top: 0px;
   z-index: 5;
 }
@@ -68,7 +68,7 @@ color: white;
 }
 div.author {
   position: absolute;
-  left: 27%;
+  left: 31%;
   top: 700px;
   z-index: 5;}
 h2 {
@@ -89,72 +89,72 @@ h6 {
 
 div.line1 {
   position: absolute;
-  left: 31%;
+  left: 36%;
   top: 1600px;
   z-index: 5;}
 div.line2 {
   position: absolute;
-  left: 32%;
+  left: 37%;
   top: 2500px;
   z-index: 5;}
   div.line3{
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 3400px;
     z-index: 5;}
     div.line4 {
       position: absolute;
-      left: 29%;
+      left: 34%;
       top: 4300px;
       z-index: 5;}
       div.line5 {
         position: absolute;
-        left: 31%;
+        left: 36%;
         top: 5100px;
         z-index: 5;}
         div.line6 {
           position: absolute;
-          left: 30%;
+          left: 35%;
           top: 5800px;
           z-index: 5;}
           div.line7 {
             position: absolute;
-            left: 32%;
+            left: 36%;
             top: 6500px;
             z-index: 5;}
             div.line8 {
               position: absolute;
-              left: 38%;
+              left: 42%;
               top: 7200px;
               z-index: 5;}
               div.line9 {
                 position: absolute;
-                left: 34%;
+                left: 37%;
                 top: 7900px;
                 z-index: 5;}
 
 div.talk1{
   position: absolute;
-  left: 20%;
+  left: 17%;
   top: 4700px;
   z-index: 5;
 }
 div.talk2{
   position: absolute;
-  left: 65%;
+  left: 67%;
   top: 5400px;
   z-index: 5;
 }
 div.talk3{
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 6100px;
   z-index: 5;
 }
 div.talk4{
   position: absolute;
-  left: 60%;
-  top: 7000px;
+  left: 63%;
+  top: 7020px;
   z-index: 5;
 }
 div.talk5{
@@ -166,21 +166,16 @@ div.talk5{
 div.talk6{
   position: absolute;
   left: 20%;
-  top: 7700px;
+  top: 7750px;
   z-index: 5;
 }
 div.talk7{
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 8150px;
   z-index: 5;
 }
-/*div.end {
-    position: absolute;
-    left: 32%;
-    top: 9000px;
-    z-index: 6;}
-}
+
 /*
 font-family: 'Chewy', cursive;
 font-family: 'Freckle Face', cursive;
@@ -191,11 +186,11 @@ font-family: 'Averia Gruesa Libre', cursive;
 font-family: 'Baloo Bhai', cursive;*/
 
 div.bottom {
-  background-color: brown;
+  background-image: url(img/dirtbig.png);
   position: absolute;
-  top: 9400px;
+  bottom: 0px;
   height: 600px;
-  width: 100%;
+  width: 3000px;
   z-index: 3;
 }
 
@@ -445,7 +440,7 @@ div.single1 {
     z-index: 4;
     position: fixed;
     top: 175px;
-    left: 35%;
+    left: 40%;
 
             -webkit-animation: float 2s ease-in-out infinite;
                     animation: float 2s ease-in-out infinite;
@@ -473,6 +468,6 @@ div.single1 {
 
 @keyframes splash {
    100% { transform: scale(3,.5);
-          top: -15px;
+          top:  590px;
         }
 }
